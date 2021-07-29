@@ -164,19 +164,6 @@
                       <span class="sidenav-mini-icon"> H </span>
                       <span class="sidenav-normal"> Home </span>
                     </a>
-                </li>
-                <li class="nav-item ">
-                    <a class="nav-link " href="http://drone.test/aboutus">
-                      <span class="sidenav-mini-icon"> AU </span>
-                      <span class="sidenav-normal"> About Us </span>
-                    </a>
-                  </li>
-              <li class="nav-item ">
-                <a class="nav-link " href="http://drone.test/contactus">
-                  <span class="sidenav-mini-icon"> CU </span>
-                  <span class="sidenav-normal"> Contact Us </span>
-                </a>
-              </li>
             </ul>
           </div>
         </li>
@@ -200,14 +187,14 @@
                 </g>
               </svg>
             </div>
-            <span class="nav-link-text ms-1">Flight Path</span>
+            <span class="nav-link-text ms-1">Create Flight Plan</span>
           </a>
           <div class="collapse " id="pagesExamples">
             <ul class="nav ms-4 ps-3">
               <li class="nav-item ">
-                <a class="nav-link " href="http://drone.test/flight-plan">
+                <a class="nav-link " href="http://drone.test/create-flight-plan">
                   <span class="sidenav-mini-icon"> CFP </span>
-                  <span class="sidenav-normal"> Create Flight Path </span>
+                  <span class="sidenav-normal"> Create Flight Plan </span>
                 </a>
               </li>
             </ul>
@@ -297,8 +284,8 @@
                   <ul class="nav ms-4 ps-3">
                     <li class="nav-item ">
                       <a class="nav-link " href="http://drone.test/drone">
-                        <span class="sidenav-mini-icon"> SDP </span>
-                        <span class="sidenav-normal"> Drone Profile </span>
+                        <span class="sidenav-mini-icon"> D </span>
+                        <span class="sidenav-normal"> Drone </span>
                       </a>
                   </ul>
                 </div>
@@ -387,19 +374,7 @@
       </div>
 
       <div>
-        @yield ('contentAboutUs')
-      </div>
-
-      <div>
-        @yield ('contentContactUs')
-      </div>
-
-      <div>
-        @yield ('contentFlightPlanIndex')
-      </div>
-
-      <div>
-        @yield ('contentFlightPlanCreate')
+        @yield ('contentCFP')
       </div>
 
       <div>
@@ -411,25 +386,8 @@
       </div>
 
       <div>
-        @yield ('contentDroneIndex')
-      </div>
-
-      <div>
-        @yield ('contentDroneCreate')
-      </div>
-
-      <div>
-        @yield ('contentUserIndex')
-      </div>
-
-      <div>
-        @yield ('contentUserCreate')
-      </div>
-
-      <div>
-        @yield ('contentSignin')
-      </div>
-      
+        @yield ('contentDrone')
+      </div>      
       
       <footer class="footer pt-3  ">
         <div class="container-fluid">

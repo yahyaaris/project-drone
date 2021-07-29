@@ -17,51 +17,20 @@ Route::get('/', function (){
     return view('home');
 });
 
-Route::get('/aboutus', function(){
-    return view('aboutus');
+Route::get('/create-flight-plan', function (){
+    return view('create-flight-plan');
 });
-
-Route::get('/contactus', function(){
-    return view('contactus');
-});
-
-Route::get('/flight-plan', function (){
-    return view('flight-plan.index');
-});
-
-Route::get('/flight-plan/create', function (){
-    return view('flight-plan.create');
-});
-
 
 Route::get('/flight-status', function (){
-    return view('flight-status.index');
+    return view('flight-status');
 });
 
 Route::get('/feed', function (){
-    return view('feed.index');
+    return view('feed');
 });
 
 Route::get('/drone', function (){
-    return view('drone.index');
+    return view('drone');
 });
 
-Route::get('/drone/create', function (){
-    return view('drone.create');
-});
 
-Route::get('/user', function (){
-    return view('user.index');
-});
-
-Route::get('user/create', function (){
-    return view('user.create');
-});
-
-Route::get('/signin', function (){
-    return view('signin');
-});
-
-Route::get('/drone02', function (){
-    return view('drone02');
-});

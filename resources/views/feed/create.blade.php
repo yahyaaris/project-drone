@@ -1,7 +1,7 @@
 html>
 
 @extends ('base')
-@section ('contentDroneCreate')
+@section ('contentFeedCreate')
 
 <body>
     <h1>Feed</h1>

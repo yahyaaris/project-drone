@@ -1,7 +1,7 @@
 <html>
 
 @extends ('base')
-@section ('contentFlightStatusIndex')
+@section ('contentFlightStatus')
 
 <body>
 
